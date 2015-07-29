@@ -1,0 +1,11 @@
+<% @note.each do |note| %>
+  <div class="stripe">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <a href="/idea/<%= note.id %>"><%= note.title2 %></a>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

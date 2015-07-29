@@ -1,0 +1,14 @@
+<br> </br>
+
+<h2 class = "update">Update<%= @note.title %></h2>
+<form action="/update_note/<%= @note.id %>">
+  <input type="text" name="title" placeholder="title" value="<%= @note.title %>">
+  <br> </br>
+<input type="text" name="date" placeholder="date" value="<%= @note.date %>">
+  <br> </br>  
+<input type="text" name="content" placeholder="content" value="<%= @note.content %>">
+  <br> </br>
+<input type="text" name="picture" placeholder="br1" value="<%= @note.picture %>">
+  <br> </br>
+  <input type="submit">
+</form>
